@@ -30,6 +30,62 @@ body{}
     font-weight: 800;
     color:beige;
 }
+
+#touchDiv{
+    position: absolute;
+    left: 0;
+    top: 80%;
+    width: 100%;
+    height: 20%;
+    z-index: 10;
+    background-color: rgb(85, 165, 42);
+}
+#touchLeft{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(229, 107, 8);
+}
+#touchLeft:hover{
+    background-color: rgb(246, 241, 237);
+}
+#touchTop{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 0;
+    left: 25%;
+    background-color: rgb(165, 97, 42);
+}
+#touchTop:hover{
+    background-color: rgb(246, 241, 237);
+}
+#touchRight{
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: rgb(229, 107, 8);
+}
+#touchRight:hover{
+    background-color: rgb(246, 241, 237);
+}
+#touchDown{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    bottom: 0;
+    left: 25%;
+    background-color: rgb(165, 97, 42);
+}
+#touchDown:hover{
+    background-color: rgb(246, 241, 237);
+}
+
+
 #mainCar{
     width: 50px;
     height: 70px;
